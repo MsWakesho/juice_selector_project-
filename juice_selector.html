@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wakesho's Juice Store</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="juice_selector.js"></script>
+  
+</head>
+<body>
+  <h1>Wakesho's <span>Juice</span> <span>Store</span></h1>
+
+<!--Navigation Bar-->
+<div class="navigationBar">
+ <ul>
+  <li ><a href="home.html">Ho<span>me</span></a></li>
+  <li><a href="about_us.html"><span>About</span>Us</a></li>
+  <li><a href="contact_us.html">Contact<span>Us</span></a></li>
+  <li><a href="juice_selector.html"><span>Juice</span>Selector</a></li>
+  
+ </ul>
+
+</div>
+
+<div class ="page">
+
+  <div class ="page_left">
+   <!--Juice Dropdown Menu-->
+   <div id="juiceSelector">
+    <h2>Pick your <span>Refreshement Of The Day</span>:</h2>
+      <select id="juiceDropdown" multiple>
+    <option value="Orange" data-price="500.00">Orange Juice(Kshs.500)</option>
+    <option value="Carrot" data-price="650.00">Carrot Juice (Kshs.650)</option>
+    <option value="Passion" data-price="750.00">Passion Juice (Kshs.750)</option>
+    <option value="Raspberry" data-price="400.00">Raspberry Juice (Kshs.400)</option>
+    <option value="Beetroot" data-price="950.00">Beetroot Juice (Kshs.950)</option>
+    <option value="Grape" data-price="950.00">Grape Juice (Kshs.950)</option>
+    <option value="Apple" data-price="950.00">Apple Juice (Kshs.950)</option>
+    <option value="Kiwi" data-price="950.00">Kiwi Juice (Kshs.950)</option>
+    <option value="Cucumber" data-price="950.00">Cucumber Juice (Kshs.950)</option>
+    <option value="Lemonade" data-price="950.00">Lemonade Juice (Kshs.950)</option>
+    <option value="Pineapple" data-price="950.00">Pineapple Juice (Kshs.950)</option>
+  </select>
+  <br>
+
+
+   <div id="instructions">
+  <h4>Hold your Control Button In Order To Select a <span>Wakesho Combo</span></h4>
+  </div>
+
+  <br>
+
+  <button onclick="displaySelection()">Submit</button>
+  <p id="selectedJuice"></p>
+ </div>
+
+
+
+ </div>
+
+ <!-- Right Page -->
+ <div class="page_right">
+
+
+  <div class="right_images">
+ 
+  <div class="container1">
+   <img src="juice_images/healthy juices.jpeg" alt="HealthyJuices" >
+   <div class="overlay">
+    <div class="text">Wakesho Combos</div>
+   </div>
+  </div>
+  <div class="container2">
+  <img src="juice_images/juice5.jpg" alt="Girl Taking Juice">
+  <div class="overlay">
+    <div class="text2">Staycation</div>
+    
+  </div>
+</div>
+  <img src="juice_images/juice3.jpg">
+  <img src="juice_images/juice4.jpg">
+ 
+ 
+
+  
+
+   
+ </div>
+ </div>
+</div>
+
+
+
+
+</body>
+</html>
